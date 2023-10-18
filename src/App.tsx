@@ -1,7 +1,11 @@
 import "./App.css";
 
 function App() {
-  return <>Nike App</>;
+  return (
+    <>
+      <h1 className="text-3xl font-bold underline">Nike App</h1>
+    </>
+  );
 }
 
 export default App;
