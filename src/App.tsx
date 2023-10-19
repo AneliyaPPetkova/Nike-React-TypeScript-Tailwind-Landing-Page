@@ -1,4 +1,5 @@
 import "./App.css";
+import { NavBar } from "./components/NavBar/NavBar";
 import {
   CustomerReviews,
   Footer,
@@ -14,6 +15,7 @@ const App = () => {
     <>
       <main className="relative">
         <h1 className="text-3xl font-bold underline">Nike App</h1>
+        <NavBar />
         <section className="x1:padding-1 wide:padding-r padding-b">
           <Hero />
         </section>
